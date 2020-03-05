@@ -1,0 +1,8 @@
+{
+  "generator-django-rest": {
+    "promptValues": {
+      "prod_branch": false,
+      "git_url": "git@github.com:zixdev/titanic.git"
+    }
+  }
+}

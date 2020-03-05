@@ -1,0 +1,8 @@
+{
+  "name": "titanic",
+  "description": "A Django REST API",
+  "repository": "git@github.com:zixdev/titanic.git",
+  "logo": "",
+  "keywords": ["Django", "REST", "API"],
+  "addons": ["heroku-postgresql", "heroku-redis"]
+}
