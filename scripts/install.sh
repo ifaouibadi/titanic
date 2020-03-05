@@ -50,6 +50,7 @@ if [ ! -d tmp/postgres ]; then
     postgres -D tmp/postgres -p $DB_PORT & echo $! > tmp/postgres.pid
     sleep 3
     psql postgres -p $DB_PORT -c "create user ${PROJECT_NAME_LOWERCASE} with password '${PROJECT_NAME_LOWERCASE}';"
+    psql postgres -p $DB_PORT -c "ALTER USER ${PROJECT_NAME_LOWERCASE} CREATEDB;"
     psql postgres -p $DB_PORT -c "create database ${PROJECT_NAME_LOWERCASE} encoding 'utf8' template template0 owner ${PROJECT_NAME_LOWERCASE};"
     sleep 3
     pipenv run python manage.py migrate

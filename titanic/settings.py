@@ -62,6 +62,11 @@ INSTALLED_APPS = [
     'anymail',
     'debug_toolbar',
     'django_extensions',
+    'titanic',
+    'titanic.core',
+    'titanic.user',
+    'titanic.authenticator',
+
 ]
 
 MIDDLEWARE = [
