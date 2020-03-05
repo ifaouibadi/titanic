@@ -1,0 +1,10 @@
+.env
+.venv
+Pipfile.lock
+Procfile.dev
+titanic.log
+tmp
+celerybeat-schedule
+celerybeat-schedule.db
+dump.rdb
+worker.log

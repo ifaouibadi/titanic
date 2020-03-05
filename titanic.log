@@ -1,1 +1,8 @@
 2020-03-05 14:01:01,321 [MainThread  ] [DEBUG] [asyncio             ]  Using selector: KqueueSelector
+2020-03-05 14:01:38,492 [MainThread  ] [DEBUG] [asyncio             ]  Using selector: KqueueSelector
+2020-03-05 14:01:38,560 [MainThread  ] [DEBUG] [asyncio             ]  Using selector: KqueueSelector
+2020-03-05 14:01:39,930 [MainThread  ] [DEBUG] [asyncio             ]  Using selector: KqueueSelector
+2020-03-05 14:03:44,462 [MainThread  ] [DEBUG] [asyncio             ]  Using selector: KqueueSelector
+2020-03-05 14:04:19,513 [MainThread  ] [DEBUG] [asyncio             ]  Using selector: KqueueSelector
+2020-03-05 14:04:19,734 [MainThread  ] [DEBUG] [asyncio             ]  Using selector: KqueueSelector
+2020-03-05 14:04:21,823 [MainThread  ] [DEBUG] [asyncio             ]  Using selector: KqueueSelector
