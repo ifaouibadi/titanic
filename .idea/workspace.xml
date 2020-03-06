@@ -2,12 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="db4e1307-6332-4be6-8bb4-45a2fc7370a3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/titanic/authenticator/templates/admin/login.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/titanic/dashboard/templates/admin/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/titanic/dashboard/templates/admin/base_site_.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pipfile" beforeDir="false" afterPath="$PROJECT_DIR$/Pipfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pipfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Pipfile.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/titanic/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/titanic/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/titanic/dashboard/templates/admin/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/titanic/dashboard/templates/admin/base.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/titanic/dashboard/templates/admin/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/titanic/dashboard/templates/admin/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/titanic/dashboard/templates/admin/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/titanic/dashboard/templates/admin/login.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,7 +47,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/titanic/dashboard/templates" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/titanic/dashboard/templates/admin" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
@@ -56,11 +55,11 @@
       <recent name="$PROJECT_DIR$/titanic" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/titanic/dashboard/templates/admin" />
+      <recent name="$PROJECT_DIR$/titanic/dashboard/templates" />
       <recent name="$PROJECT_DIR$/dashboard" />
       <recent name="$PROJECT_DIR$/titanic/authenticator" />
       <recent name="$PROJECT_DIR$/templates" />
-      <recent name="$PROJECT_DIR$/titanic/core/templates" />
-      <recent name="$PROJECT_DIR$/titanic/templates" />
     </key>
   </component>
   <component name="RunManager">
@@ -114,7 +113,7 @@
       <workItem from="1583413174810" duration="2608000" />
       <workItem from="1583420906805" duration="1009000" />
       <workItem from="1583497162888" duration="2209000" />
-      <workItem from="1583514643307" duration="3418000" />
+      <workItem from="1583514643307" duration="5827000" />
     </task>
     <servers />
   </component>
@@ -158,5 +157,9 @@
       <screen x="0" y="23" width="2560" height="1325" />
     </state>
     <state x="455" y="308" key="SettingsEditor/2560.23.1920.1057/0.23.2560.1325@0.23.2560.1325" timestamp="1583514719672" />
+    <state x="612" y="426" width="683" height="486" key="find.popup" timestamp="1583519466390">
+      <screen x="0" y="23" width="2560" height="1325" />
+    </state>
+    <state x="612" y="426" width="683" height="486" key="find.popup/2560.23.1920.1057/0.23.2560.1325@0.23.2560.1325" timestamp="1583519466390" />
   </component>
 </project>
