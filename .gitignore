@@ -8,3 +8,4 @@ celerybeat-schedule
 celerybeat-schedule.db
 dump.rdb
 worker.log
+.idea

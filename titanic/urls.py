@@ -1,7 +1,7 @@
 """titanic URL Configuration
 
 The `urlpatterns` list routes URLs to views. For more information please see:
-    https://docs.djangoproject.com/en/2.0/topics/http/urls/
+    https://docs.djangoproject.com/en/3.0/topics/http/urls/
 Examples:
 Function views
     1. Add an import:  from my_app import views
@@ -21,8 +21,6 @@ from django.views.generic import RedirectView
 from django.conf import settings
 from graphene_django.views import GraphQLView
 
-from .api import router
-from .schema import schema
 
 
 admin.autodiscover()
@@ -33,15 +31,13 @@ urlpatterns = [
     # - index.html served on /
     # - all /static/... files served on /...
 
-    # Django REST Framework urls
-    path('api/', include(router.urls)),
-    path('api-auth/', include('rest_framework.urls', namespace='rest_framework')),
-
     #  GraphQL urls
-    path('graphql/', GraphQLView.as_view(graphiql=True, schema=schema)),
+    # path('graphql/', GraphQLView.as_view(graphiql=True, schema=schema)),
 
     # other views still work too
     path('admin/', admin.site.urls),
+    path('api/user/', include('titanic.users.urls'))
+
 ]
 
 if settings.DEPLOYMENT == 'dev':

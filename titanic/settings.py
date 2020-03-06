@@ -13,7 +13,7 @@ https://docs.djangoproject.com/en/3.0/ref/settings/
 import environ
 from django.core.exceptions import ImproperlyConfigured
 
-env = environ.Env( # set default values and casting
+env = environ.Env(  # set default values and casting
     DEBUG=(bool, False),
     DEPLOYMENT=(str, 'prod'),
     SECRET_KEY=(str, 'h4@c1x9okapu5^#iurp21i(vn14s5c#1lqx!$k-#^v%rd#rn!b'),
@@ -22,26 +22,26 @@ env = environ.Env( # set default values and casting
 # Build paths inside the project like this: base('desired/local/path')
 # - the path containing manage.py
 #   (e.g. ~/code/titanic)
-base = environ.Path(__file__) - 2 # two folders back (/a/b/ - 2 = /)
+base = environ.Path(__file__) - 2  # two folders back (/a/b/ - 2 = /)
 BASE_DIR = base()
-#BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+# BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 # - the Django project root containing settings.py
 # (e.g. ~/code/titanic/titanic)
 root = environ.Path(__file__) - 1
 PROJECT_ROOT = root()
-#PROJECT_ROOT = os.path.dirname(os.path.abspath(__file__))
+# PROJECT_ROOT = os.path.dirname(os.path.abspath(__file__))
 
-environ.Env.read_env(env_file=base('.env')) # reading .env file
+environ.Env.read_env(env_file=base('.env'))  # reading .env file
 
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/2.0/howto/deployment/checklist/
 
 # SECURITY WARNING: set a SECRET_KEY environment variable to a secret value
 # before deploying to production!
-SECRET_KEY = env('SECRET_KEY') # default used if not in os.environ
+SECRET_KEY = env('SECRET_KEY')  # default used if not in os.environ
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = env('DEBUG') # False if not in os.environ
+DEBUG = env('DEBUG')  # False if not in os.environ
 
 # Allow all host headers
 ALLOWED_HOSTS = ['*']
@@ -64,7 +64,7 @@ INSTALLED_APPS = [
     'django_extensions',
     'titanic',
     'titanic.core',
-    'titanic.user',
+    'titanic.users',
     'titanic.authenticator',
 
 ]
@@ -74,7 +74,7 @@ MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
     'whitenoise.middleware.WhiteNoiseMiddleware',
     'spa.middleware.SPAMiddleware',
-    'debug_toolbar.middleware.DebugToolbarMiddleware', # early, but after Gzip
+    'debug_toolbar.middleware.DebugToolbarMiddleware',  # early, but after Gzip
     'django.contrib.sessions.middleware.SessionMiddleware',
     'django.middleware.common.CommonMiddleware',
     'django.middleware.csrf.CsrfViewMiddleware',
@@ -103,13 +103,21 @@ TEMPLATES = [
 
 WSGI_APPLICATION = 'titanic.wsgi.application'
 
-
 # Database
 # https://docs.djangoproject.com/en/2.0/ref/settings/#databases
 
 DATABASES = {
     # Raises ImproperlyConfigured exception if DATABASE_URL not in os.environ
-    'default': env.db(),
+    # 'default': env.db(),
+    'default': {
+        'ENGINE': 'django.db.backends.postgresql',
+        'NAME': 'titanic',
+        'USER': 'titanic',
+        'PASSWORD': '',
+        'HOST': 'localhost',
+        'PORT': '5433',
+    },
+
 }
 
 # Password validation
@@ -141,10 +149,10 @@ DEPLOYMENT = env('DEPLOYMENT')
 
 if DEPLOYMENT == 'dev':
     EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
-    CELERY_ALWAYS_EAGER = True # run tasks in same thread for development
-    #CELERY_EAGER_PROPAGATES_EXCEPTIONS = True
+    CELERY_ALWAYS_EAGER = True  # run tasks in same thread for development
+    # CELERY_EAGER_PROPAGATES_EXCEPTIONS = True
     ADMINS = (('admin', 'admin@localhost'),)
-else: # DEPLOYMENT == prod
+else:  # DEPLOYMENT == prod
     # SECURE_SSL_REDIRECT = True
     # add extra apps
     # INSTALLED_APPS.append('raven.contrib.django.raven_compat')
@@ -157,7 +165,7 @@ try:
     BACKBLAZEB2_BUCKET_NAME = env('BACKBLAZEB2_BUCKET')
     DEFAULT_FILE_STORAGE = 'b2_storage.storage.B2Storage'
     # INSTALLED_APPS.append('b2_storage.authorise')
-except ImproperlyConfigured: # use the default file storage to disk
+except ImproperlyConfigured:  # use the default file storage to disk
     MEDIA_ROOT = root('media')
     MEDIA_URL = '/media/'
 
@@ -226,3 +234,4 @@ GRAPHENE = {
     # Where your Graphene schema lives
     'SCHEMA': 'titanic.schema.schema'
 }
+AUTH_USER_MODEL = 'users.User'
