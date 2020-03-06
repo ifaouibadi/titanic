@@ -9,7 +9,7 @@ https://docs.djangoproject.com/en/3.0/topics/settings/
 For the full list of settings and their values, see
 https://docs.djangoproject.com/en/3.0/ref/settings/
 """
-
+import os
 import environ
 from django.core.exceptions import ImproperlyConfigured
 
@@ -66,6 +66,7 @@ INSTALLED_APPS = [
     'titanic.core',
     'titanic.users',
     'titanic.authenticator',
+    'titanic.dashboard'
 
 ]
 
@@ -88,7 +89,8 @@ ROOT_URLCONF = 'titanic.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+        # 'DIRS': [],
+        'DIRS': [os.path.join(BASE_DIR, 'titanic/dashboard/templates')],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [

@@ -2,13 +2,27 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="db4e1307-6332-4be6-8bb4-45a2fc7370a3" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/titanic/authenticator/templates/admin/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/titanic/dashboard/templates/admin/login.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/titanic/users/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/titanic/users/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pipfile" beforeDir="false" afterPath="$PROJECT_DIR$/Pipfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pipfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Pipfile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/titanic/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/titanic/settings.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
+    <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -30,20 +44,23 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/titanic/users" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/titanic/dashboard/templates" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/titanic/users" />
-      <recent name="$PROJECT_DIR$/titanic/user" />
-      <recent name="$PROJECT_DIR$/titanic/core" />
-      <recent name="$PROJECT_DIR$" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/titanic" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/dashboard" />
+      <recent name="$PROJECT_DIR$/titanic/authenticator" />
+      <recent name="$PROJECT_DIR$/templates" />
+      <recent name="$PROJECT_DIR$/titanic/core/templates" />
+      <recent name="$PROJECT_DIR$/titanic/templates" />
     </key>
   </component>
   <component name="RunManager">
@@ -96,7 +113,8 @@
       <updated>1583413154272</updated>
       <workItem from="1583413174810" duration="2608000" />
       <workItem from="1583420906805" duration="1009000" />
-      <workItem from="1583497162888" duration="928000" />
+      <workItem from="1583497162888" duration="2209000" />
+      <workItem from="1583514643307" duration="3418000" />
     </task>
     <servers />
   </component>
@@ -136,5 +154,9 @@
       <screen x="0" y="23" width="2560" height="1325" />
     </state>
     <state width="1866" height="452" key="GridCell.Tab.1.right/2560.23.1920.1057/0.23.2560.1325@0.23.2560.1325" timestamp="1583420507801" />
+    <state x="455" y="308" key="SettingsEditor" timestamp="1583514719672">
+      <screen x="0" y="23" width="2560" height="1325" />
+    </state>
+    <state x="455" y="308" key="SettingsEditor/2560.23.1920.1057/0.23.2560.1325@0.23.2560.1325" timestamp="1583514719672" />
   </component>
 </project>
