@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="db4e1307-6332-4be6-8bb4-45a2fc7370a3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/titanic/dashboard/templates/admin/index_old.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/titanic/dashboard/templates/admin/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/titanic/dashboard/templates/admin/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/titanic/dashboard/templates/admin/partials/header.html" beforeDir="false" afterPath="$PROJECT_DIR$/titanic/dashboard/templates/admin/partials/header.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -114,7 +113,7 @@
       <workItem from="1583497162888" duration="2209000" />
       <workItem from="1583514643307" duration="12801000" />
       <workItem from="1583570387695" duration="371000" />
-      <workItem from="1583599284143" duration="3399000" />
+      <workItem from="1583599284143" duration="3795000" />
     </task>
     <servers />
   </component>
@@ -181,7 +180,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="django-line">
           <url>file://$PROJECT_DIR$/titanic/dashboard/templates/admin/partials/header.html</url>
-          <line>48</line>
+          <line>64</line>
           <option name="timeStamp" value="2" />
         </line-breakpoint>
       </breakpoints>
