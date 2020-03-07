@@ -15,39 +15,57 @@
 
         {% if app_list %}
             {% for app in app_list %}
-                <div class="app-{{ app.app_label }} module">
-                    <table>
-                        <caption>
-                            <a href="{{ app.app_url }}" class="section"
-                               title="{% blocktrans with name=app.name %}Models in the {{ name }} application{% endblocktrans %}">{{ app.name }}</a>
-                        </caption>
+                <div class="card app-{{ app.app_label }} module">
+                    <div class="card-header">
+                        <a href="{{ app.app_url }}" class="section"
+                           title="{% blocktrans with name=app.name %}Models in the {{ name }} application{% endblocktrans %}">
+                            {{ app.name }}
+                        </a>
+                    </div>
+                    <div class="card-body">
+
                         {% for model in app.models %}
-                            <tr class="model-{{ model.object_name|lower }}">
+                            <div class="model-{{ model.object_name|lower }}">
                                 {% if model.admin_url %}
-                                    <th scope="row"><a href="{{ model.admin_url }}">{{ model.name }}</a></th>
+                                    <th scope="row">
+                                        <a href="{{ model.admin_url }}">
+                                            {{ model.name }}
+                                        </a>
+                                    </th>
                                 {% else %}
                                     <th scope="row">{{ model.name }}</th>
                                 {% endif %}
 
                                 {% if model.add_url %}
-                                    <td><a href="{{ model.add_url }}" class="addlink">{% trans 'Add' %}</a></td>
+                                    <td>
+                                        <a href="{{ model.add_url }}">
+                                            {% trans 'Add' %}
+                                        </a>
+                                    </td>
                                 {% else %}
                                     <td>&nbsp;</td>
                                 {% endif %}
 
                                 {% if model.admin_url %}
                                     {% if model.view_only %}
-                                        <td><a href="{{ model.admin_url }}" class="viewlink">{% trans 'View' %}</a></td>
+                                        <td>
+                                            <a href="{{ model.admin_url }}">
+                                                {% trans 'View' %}
+                                            </a>
+                                        </td>
                                     {% else %}
-                                        <td><a href="{{ model.admin_url }}" class="changelink">{% trans 'Change' %}</a>
+                                        <td>
+                                            <a href="{{ model.admin_url }}">
+                                                {% trans 'Change' %}
+                                            </a>
                                         </td>
                                     {% endif %}
                                 {% else %}
                                     <td>&nbsp;</td>
                                 {% endif %}
-                            </tr>
+                            </div>
                         {% endfor %}
-                    </table>
+                    </div>
                 </div>
             {% endfor %}
         {% else %}
@@ -57,10 +75,14 @@
 {% endblock %}
 
 {% block sidebar %}
-    <div id="content-related">
-        <div class="module" id="recent-actions-module">
-            <h2>{% trans 'Recent actions' %}</h2>
-            <h3>{% trans 'My actions' %}</h3>
+    <div class="card">
+        <div class="card-header">
+            <h2>
+                {% trans 'Recent actions' %}:
+                <small>{% trans 'My actions' %}</small>
+            </h2>
+        </div>
+        <div class="card-body">
             {% load log %}
             {% get_admin_log 10 as admin_log for_user user %}
             {% if not admin_log %}

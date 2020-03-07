@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="db4e1307-6332-4be6-8bb4-45a2fc7370a3" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/titanic/dashboard/templates/admin/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/titanic/dashboard/templates/admin/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/titanic/dashboard/templates/admin/index_old.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/titanic/dashboard/templates/admin/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/titanic/dashboard/templates/admin/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,16 +49,16 @@
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/titanic/dashboard/static/admin" />
-      <recent name="$PROJECT_DIR$/titanic" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/titanic/dashboard/templates/admin" />
       <recent name="$PROJECT_DIR$/titanic/dashboard/templates" />
       <recent name="$PROJECT_DIR$/dashboard" />
       <recent name="$PROJECT_DIR$/titanic/authenticator" />
       <recent name="$PROJECT_DIR$/templates" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/titanic/dashboard/static/admin" />
+      <recent name="$PROJECT_DIR$/titanic" />
     </key>
   </component>
   <component name="RunManager">
@@ -112,7 +114,7 @@
       <workItem from="1583497162888" duration="2209000" />
       <workItem from="1583514643307" duration="12801000" />
       <workItem from="1583570387695" duration="371000" />
-      <workItem from="1583599284143" duration="1813000" />
+      <workItem from="1583599284143" duration="3399000" />
     </task>
     <servers />
   </component>
@@ -120,6 +122,10 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="767" y="392" key="#com.intellij.ide.util.MemberChooser" timestamp="1583601223524">
+      <screen x="0" y="23" width="2560" height="1325" />
+    </state>
+    <state x="767" y="392" key="#com.intellij.ide.util.MemberChooser/2560.23.1920.1057/0.23.2560.1325@0.23.2560.1325" timestamp="1583601223524" />
     <state width="1866" height="452" key="GridCell.Tab.0.bottom" timestamp="1583420507801">
       <screen x="0" y="23" width="2560" height="1325" />
     </state>
