@@ -2,45 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="db4e1307-6332-4be6-8bb4-45a2fc7370a3" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.venv/lib/python3.7/site-packages/prompt_toolkit-3.0.3.dist-info/AUTHORS.rst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.venv/lib/python3.7/site-packages/prompt_toolkit-3.0.3.dist-info/INSTALLER" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.venv/lib/python3.7/site-packages/prompt_toolkit-3.0.3.dist-info/LICENSE" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.venv/lib/python3.7/site-packages/prompt_toolkit-3.0.3.dist-info/METADATA" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.venv/lib/python3.7/site-packages/prompt_toolkit-3.0.3.dist-info/RECORD" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.venv/lib/python3.7/site-packages/prompt_toolkit-3.0.3.dist-info/WHEEL" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.venv/lib/python3.7/site-packages/prompt_toolkit-3.0.3.dist-info/top_level.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.venv/lib/python3.7/site-packages/prompt_toolkit/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/.venv/lib/python3.7/site-packages/prompt_toolkit/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.venv/lib/python3.7/site-packages/prompt_toolkit/application/application.py" beforeDir="false" afterPath="$PROJECT_DIR$/.venv/lib/python3.7/site-packages/prompt_toolkit/application/application.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.venv/lib/python3.7/site-packages/prompt_toolkit/application/dummy.py" beforeDir="false" afterPath="$PROJECT_DIR$/.venv/lib/python3.7/site-packages/prompt_toolkit/application/dummy.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.venv/lib/python3.7/site-packages/prompt_toolkit/application/run_in_terminal.py" beforeDir="false" afterPath="$PROJECT_DIR$/.venv/lib/python3.7/site-packages/prompt_toolkit/application/run_in_terminal.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.venv/lib/python3.7/site-packages/prompt_toolkit/completion/nested.py" beforeDir="false" afterPath="$PROJECT_DIR$/.venv/lib/python3.7/site-packages/prompt_toolkit/completion/nested.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.venv/lib/python3.7/site-packages/prompt_toolkit/eventloop/utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/.venv/lib/python3.7/site-packages/prompt_toolkit/eventloop/utils.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.venv/lib/python3.7/site-packages/prompt_toolkit/input/ansi_escape_sequences.py" beforeDir="false" afterPath="$PROJECT_DIR$/.venv/lib/python3.7/site-packages/prompt_toolkit/input/ansi_escape_sequences.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.venv/lib/python3.7/site-packages/prompt_toolkit/input/win32.py" beforeDir="false" afterPath="$PROJECT_DIR$/.venv/lib/python3.7/site-packages/prompt_toolkit/input/win32.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.venv/lib/python3.7/site-packages/prompt_toolkit/key_binding/bindings/auto_suggest.py" beforeDir="false" afterPath="$PROJECT_DIR$/.venv/lib/python3.7/site-packages/prompt_toolkit/key_binding/bindings/auto_suggest.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.venv/lib/python3.7/site-packages/prompt_toolkit/key_binding/bindings/basic.py" beforeDir="false" afterPath="$PROJECT_DIR$/.venv/lib/python3.7/site-packages/prompt_toolkit/key_binding/bindings/basic.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.venv/lib/python3.7/site-packages/prompt_toolkit/key_binding/bindings/completion.py" beforeDir="false" afterPath="$PROJECT_DIR$/.venv/lib/python3.7/site-packages/prompt_toolkit/key_binding/bindings/completion.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.venv/lib/python3.7/site-packages/prompt_toolkit/key_binding/bindings/emacs.py" beforeDir="false" afterPath="$PROJECT_DIR$/.venv/lib/python3.7/site-packages/prompt_toolkit/key_binding/bindings/emacs.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.venv/lib/python3.7/site-packages/prompt_toolkit/key_binding/bindings/mouse.py" beforeDir="false" afterPath="$PROJECT_DIR$/.venv/lib/python3.7/site-packages/prompt_toolkit/key_binding/bindings/mouse.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.venv/lib/python3.7/site-packages/prompt_toolkit/key_binding/bindings/named_commands.py" beforeDir="false" afterPath="$PROJECT_DIR$/.venv/lib/python3.7/site-packages/prompt_toolkit/key_binding/bindings/named_commands.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.venv/lib/python3.7/site-packages/prompt_toolkit/key_binding/bindings/vi.py" beforeDir="false" afterPath="$PROJECT_DIR$/.venv/lib/python3.7/site-packages/prompt_toolkit/key_binding/bindings/vi.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.venv/lib/python3.7/site-packages/prompt_toolkit/key_binding/digraphs.py" beforeDir="false" afterPath="$PROJECT_DIR$/.venv/lib/python3.7/site-packages/prompt_toolkit/key_binding/digraphs.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.venv/lib/python3.7/site-packages/prompt_toolkit/key_binding/vi_state.py" beforeDir="false" afterPath="$PROJECT_DIR$/.venv/lib/python3.7/site-packages/prompt_toolkit/key_binding/vi_state.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.venv/lib/python3.7/site-packages/prompt_toolkit/keys.py" beforeDir="false" afterPath="$PROJECT_DIR$/.venv/lib/python3.7/site-packages/prompt_toolkit/keys.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.venv/lib/python3.7/site-packages/prompt_toolkit/layout/menus.py" beforeDir="false" afterPath="$PROJECT_DIR$/.venv/lib/python3.7/site-packages/prompt_toolkit/layout/menus.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.venv/lib/python3.7/site-packages/prompt_toolkit/shortcuts/progress_bar/base.py" beforeDir="false" afterPath="$PROJECT_DIR$/.venv/lib/python3.7/site-packages/prompt_toolkit/shortcuts/progress_bar/base.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.venv/lib/python3.7/site-packages/prompt_toolkit/shortcuts/prompt.py" beforeDir="false" afterPath="$PROJECT_DIR$/.venv/lib/python3.7/site-packages/prompt_toolkit/shortcuts/prompt.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.venv/lib/python3.7/site-packages/prompt_toolkit/widgets/base.py" beforeDir="false" afterPath="$PROJECT_DIR$/.venv/lib/python3.7/site-packages/prompt_toolkit/widgets/base.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.venv/lib/python3.7/site-packages/prompt_toolkit/widgets/menus.py" beforeDir="false" afterPath="$PROJECT_DIR$/.venv/lib/python3.7/site-packages/prompt_toolkit/widgets/menus.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.venv/lib/python3.7/site-packages/prompt_toolkit/widgets/toolbars.py" beforeDir="false" afterPath="$PROJECT_DIR$/.venv/lib/python3.7/site-packages/prompt_toolkit/widgets/toolbars.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pipfile" beforeDir="false" afterPath="$PROJECT_DIR$/Pipfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pipfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Pipfile.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/titanic/dashboard/static/admin/css/components.css" beforeDir="false" afterPath="$PROJECT_DIR$/titanic/dashboard/static/admin/css/components.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/titanic/dashboard/templates/admin/base_.html" beforeDir="false" afterPath="$PROJECT_DIR$/titanic/dashboard/templates/admin/base_.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/titanic/dashboard/templates/admin/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/titanic/dashboard/templates/admin/login.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/titanic/dashboard/templates/admin/partials/sidebar.html" beforeDir="false" afterPath="$PROJECT_DIR$/titanic/dashboard/templates/admin/partials/sidebar.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/titanic/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/titanic/settings.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -150,7 +112,7 @@
       <workItem from="1583497162888" duration="2209000" />
       <workItem from="1583514643307" duration="12801000" />
       <workItem from="1583570387695" duration="371000" />
-      <workItem from="1583599284143" duration="1743000" />
+      <workItem from="1583599284143" duration="1813000" />
     </task>
     <servers />
   </component>

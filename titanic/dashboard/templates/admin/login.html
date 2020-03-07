@@ -68,7 +68,9 @@
                                                    id="{{ form.username.name }}"
                                                    placeholder="{{ form.username.label }}"
                                                    name="{{ form.username.name }}"
+                                                    {% if form.username.value %}
                                                    value="{{ form.username.value }}"
+                                                    {% endif %}
                                                    required>
                                             <div class="form-control-position">
                                                 <i class="feather icon-user"></i>
