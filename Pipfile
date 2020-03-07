@@ -6,7 +6,7 @@ name = "pypi"
 [packages]
 Django = "==3.0.3"
 djangorestframework = "==3.11.0"
-django-suit = "==0.2.25"
+django-crispy-forms = "==1.9.0"
 Pillow = "*"
 celery = "*"
 django-backblazeb2-storage = "*"

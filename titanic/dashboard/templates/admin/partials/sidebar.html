@@ -38,19 +38,13 @@
                         </a>
                         <ul class="menu-content">
                             {% for model in app.models %}
-                                </li>
+
                                 {% if model.admin_url %}
                                     <li>
                                         <a href="{{ model.admin_url }}">
-                                            {% trans 'View' %} {{ model.name }}
+                                            {{ model.name }}
                                         </a>
                                     </li>
-                                {% endif %}
-
-                                {% if model.add_url %}
-                                    <li><a href="{{ model.add_url }}">
-                                        {% trans 'Create' %} {{ model.name }}
-                                    </a></li>
                                 {% endif %}
 
                             {% endfor %}

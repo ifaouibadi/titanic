@@ -62,6 +62,7 @@ INSTALLED_APPS = [
     'anymail',
     'debug_toolbar',
     'django_extensions',
+    'crispy_forms',
     'titanic',
     'titanic.core',
     'titanic.users',
@@ -237,3 +238,4 @@ GRAPHENE = {
     'SCHEMA': 'titanic.schema.schema'
 }
 AUTH_USER_MODEL = 'users.User'
+CRISPY_TEMPLATE_PACK = 'bootstrap4'

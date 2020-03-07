@@ -1,5 +1,6 @@
-{% extends "admin/base_site_.html" %}
+{% extends "admin/auth_base.html" %}
 {% load i18n static %}
+{% load crispy_forms_tags %}
 
 {% block extrastyle %}{{ block.super }}
     <link rel="stylesheet" type="text/css" href="{% static "admin/css/login.css" %}">
@@ -8,61 +9,137 @@
 
 {% block bodyclass %}{{ block.super }} login{% endblock %}
 
-{% block usertools %}{% endblock %}
+{% block main_sidebar %}{% endblock %}
 
-{% block nav-global %}{% endblock %}
-
-{% block content_title %}{% endblock %}
-
-{% block breadcrumbs %}{% endblock %}
+{% block header %}{% endblock %}
 
 {% block content %}
-    {% if form.errors and not form.non_field_errors %}
-        <p class="errornote">
-            {% if form.errors.items|length == 1 %}{% trans "Please correct the error below." %}{% else %}
-                {% trans "Please correct the errors below." %}{% endif %}
-        </p>
-    {% endif %}
+    <section class="row flexbox-container">
+        <div class="col-xl-8 col-11 d-flex justify-content-center">
+            <div class="card bg-authentication rounded-0 mb-0">
+                <div class="row m-0">
+                    <div class="col-lg-6 d-lg-block d-none text-center align-self-center px-1 py-0">
+                        <img src="{% static "admin/images/pages/login.png" %}" alt="branding logo">
+                    </div>
+                    <div class="col-lg-6 col-12 p-0">
+                        <div class="card rounded-0 mb-0 px-2">
+                            <div class="card-header pb-1">
+                                <div class="card-title">
+                                    <h4 class="mb-0">Login</h4>
+                                </div>
+                            </div>
+                            <p class="px-2">Welcome back, please login to your account.</p>
+                            <div class="card-content">
+                                {% if user.is_authenticated %}
+                                    <div class="alert alert-warning">
+                                        {% blocktrans trimmed %}
+                                            You are authenticated as {{ username }}, but are not authorized to
+                                            access this page. Would you like to login to a different account?
+                                        {% endblocktrans %}
+                                    </div>
+                                {% endif %}
+                                {% if form.non_field_errors %}
+                                    <div class="alert alert-danger">
+                                        <ul>
+                                            {% for error in form.non_field_errors %}
+                                                <li>
+                                                    {{ error }}
+                                                </li>
+                                            {% endfor %}
+                                        </ul>
+                                    </div>
 
-    {% if form.non_field_errors %}
-        {% for error in form.non_field_errors %}
-            <p class="errornote">
-                {{ error }}
-            </p>
-        {% endfor %}
-    {% endif %}
+                                {% endif %}
+                                {% if form.errors and not form.non_field_errors %}
+                                    <div class="alert alert-danger">
+                                        {% if form.errors.items|length == 1 %}
+                                            {% trans "Please correct the error below." %}{% else %}
+                                            {% trans "Please correct the errors below." %}{% endif %}
+                                    </div>
+                                {% endif %}
 
-    <div id="content-main">
+                                <div class="card-body pt-1">
+                                    <form action="{{ app_path }}" method="post" id="login-form">
+                                        {% csrf_token %}
+                                        <input type="hidden" name="next" value="{{ next }}">
+                                        <fieldset class="form-label-group form-group position-relative has-icon-left">
+                                            <input type="text"
+                                                   class="form-control"
+                                                   id="{{ form.username.name }}"
+                                                   placeholder="{{ form.username.label }}"
+                                                   name="{{ form.username.name }}"
+                                                   value="{{ form.username.value }}"
+                                                   required>
+                                            <div class="form-control-position">
+                                                <i class="feather icon-user"></i>
+                                            </div>
+                                            <label for="{{ form.username.name }}"> {{ form.username.label }}</label>
+                                            {{ form.username.errors }}
 
-        {% if user.is_authenticated %}
-            <p class="errornote">
-                {% blocktrans trimmed %}
-                    You are authenticated as {{ username }}, but are not authorized to
-                    access this page. Would you like to login to a different account?
-                {% endblocktrans %}
-            </p>
-        {% endif %}
+                                        </fieldset>
 
-        <form action="{{ app_path }}" method="post" id="login-form">{% csrf_token %}
-            <div class="form-row">
-                {{ form.username.errors }}
-                {{ form.username.label_tag }} {{ form.username }}
-            </div>
-            <div class="form-row">
-                {{ form.password.errors }}
-                {{ form.password.label_tag }} {{ form.password }}
-                <input type="hidden" name="next" value="{{ next }}">
-            </div>
-            {% url 'admin_password_reset' as password_reset_url %}
-            {% if password_reset_url %}
-                <div class="password-reset-link">
-                    <a href="{{ password_reset_url }}">{% trans 'Forgotten your password or username?' %}</a>
+                                        <fieldset class="form-label-group position-relative has-icon-left">
+                                            <input type="password"
+                                                   class="form-control"
+                                                   id="{{ form.password.name }}"
+                                                   name="{{ form.password.name }}"
+                                                   placeholder="{{ form.password.label }}"
+                                                   required>
+                                            <div class="form-control-position">
+                                                <i class="feather icon-lock"></i>
+                                            </div>
+                                            <label for="{{ form.password.name }}">{{ form.password.label }}</label>
+                                        </fieldset>
+                                        <div class="form-group d-flex justify-content-between align-items-center">
+                                            <div class="text-left">
+                                                <fieldset class="checkbox">
+                                                    <div class="vs-checkbox-con vs-checkbox-primary">
+                                                        <input type="checkbox">
+                                                        <span class="vs-checkbox">
+                                                                        <span class="vs-checkbox--check">
+                                                                            <i class="vs-icon feather icon-check"></i>
+                                                                        </span>
+                                                                    </span>
+                                                        <span class="">Remember me</span>
+                                                    </div>
+                                                </fieldset>
+                                            </div>
+                                            {% url 'admin_password_reset' as password_reset_url %}
+                                            {% if password_reset_url %}
+                                                <div class="text-right">
+                                                    <a href="{{ password_reset_url }}" class="card-link">
+                                                        {% trans 'Forgotten your password or username?' %}
+                                                    </a>
+                                                </div>
+                                            {% endif %}
+
+                                        </div>
+                                        <a href="#"
+                                           class="btn btn-outline-primary float-left btn-inline">Register</a>
+                                        <button type="submit" class="btn btn-primary float-right btn-inline">
+                                            {% trans 'Log in' %}
+                                        </button>
+                                    </form>
+                                </div>
+                            </div>
+                            <div class="login-footer">
+                                <div class="divider">
+                                    <div class="divider-text">OR</div>
+                                </div>
+                                <div class="footer-btn d-inline">
+                                    <a href="#" class="btn btn-facebook"><span
+                                            class="fa fa-facebook"></span></a>
+                                    <a href="#" class="btn btn-twitter white"><span
+                                            class="fa fa-twitter"></span></a>
+                                    <a href="#" class="btn btn-google"><span class="fa fa-google"></span></a>
+                                    <a href="#" class="btn btn-github"><span
+                                            class="fa fa-github-alt"></span></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-            {% endif %}
-            <div class="submit-row">
-                <label>&nbsp;</label><input type="submit" value="{% trans 'Log in' %}">
             </div>
-        </form>
-
-    </div>
+        </div>
+    </section>
 {% endblock %}

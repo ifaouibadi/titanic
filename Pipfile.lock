@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "fd81d96c8b5f6a66547bbc788e1e5c97f1376934fb915bbd89aada4b3d5f1661"
+            "sha256": "7d69b0db815c4f71b56b7c2070cfb0165db0ba9773da2cb25c6d35c3bbe65da8"
         },
         "pipfile-spec": 6,
         "requires": {
@@ -97,6 +97,14 @@
             "index": "pypi",
             "version": "==3.2.1"
         },
+        "django-crispy-forms": {
+            "hashes": [
+                "sha256:50032184708ce351e3c9f0008ac35d659d9d5973fa2db218066f2e0a76eb41d9",
+                "sha256:67e73ac863d3159500029fbbcdcb788f287a3fd357becebc1a0b51f73896dce3"
+            ],
+            "index": "pypi",
+            "version": "==1.9.0"
+        },
         "django-debug-toolbar": {
             "hashes": [
                 "sha256:eabbefe89881bbe4ca7c980ff102e3c35c8e8ad6eb725041f538988f2f39a943",
@@ -136,13 +144,6 @@
             ],
             "index": "pypi",
             "version": "==0.3.5"
-        },
-        "django-suit": {
-            "hashes": [
-                "sha256:ab94fa2288cb82f47716c9c98357f1b4d117cacc9d7876c2a38c7a6c4a464f09"
-            ],
-            "index": "pypi",
-            "version": "==0.2.25"
         },
         "djangorestframework": {
             "hashes": [
@@ -447,10 +448,10 @@
         },
         "prompt-toolkit": {
             "hashes": [
-                "sha256:a402e9bf468b63314e37460b68ba68243d55b2f8c4d0192f85a019af3945050e",
-                "sha256:c93e53af97f630f12f5f62a3274e79527936ed466f038953dfa379d4941f651a"
+                "sha256:859e1b205b6cf6a51fa57fa34202e45365cf58f8338f0ee9f4e84a4165b37d5b",
+                "sha256:ebe6b1b08c888b84c50d7f93dee21a09af39860144ff6130aadbd61ae8d29783"
             ],
-            "version": "==3.0.3"
+            "version": "==3.0.4"
         },
         "ptyprocess": {
             "hashes": [
