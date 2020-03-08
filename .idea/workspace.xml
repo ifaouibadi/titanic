@@ -2,15 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="db4e1307-6332-4be6-8bb4-45a2fc7370a3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/titanic/dashboard/templates/admin/partials/footer.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/titanic/dashboard/templates/admin/partials/header_.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/titanic/dashboard/templates/admin/templates/dashboard.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/titanic/dashboard/templates/admin/base_.html" beforeDir="false" afterPath="$PROJECT_DIR$/titanic/dashboard/templates/admin/base_.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/titanic/dashboard/templates/admin/partials/header.html" beforeDir="false" afterPath="$PROJECT_DIR$/titanic/dashboard/templates/admin/partials/header.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/titanic/dashboard/templates/admin/partials/header/languages.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/titanic/dashboard/templates/admin/partials/sidebar.html" beforeDir="false" afterPath="$PROJECT_DIR$/titanic/dashboard/templates/admin/partials/sidebar.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/titanic/dashboard/templates/admin/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/titanic/dashboard/templates/admin/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/titanic/dashboard/templates/admin/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/titanic/dashboard/templates/admin/templates/base.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/titanic/dashboard/templates/admin/templates/dashboard.html" beforeDir="false" afterPath="$PROJECT_DIR$/titanic/dashboard/templates/admin/templates/dashboard.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -123,7 +118,7 @@
       <workItem from="1583514643307" duration="12801000" />
       <workItem from="1583570387695" duration="371000" />
       <workItem from="1583599284143" duration="8636000" />
-      <workItem from="1583653181655" duration="7315000" />
+      <workItem from="1583653181655" duration="8330000" />
     </task>
     <servers />
   </component>

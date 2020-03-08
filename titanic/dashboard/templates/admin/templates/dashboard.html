@@ -7,10 +7,22 @@
     {% include 'admin/partials/header.html' %}
 
     <v-content>
-        <v-container class="fill-height" fluid>
-            {% block content %}
-                {{ content }}
-            {% endblock %}
+        <v-container fluid class="pa-5">
+            <v-row>
+                <v-col cols="{% block content_cols %}9{% endblock %}">
+                    {% block content %}
+                        {% block object-tools %}{% endblock %}
+                        {{ content }}
+                    {% endblock %}
+                </v-col>
+                <v-col cols="{% block sidebar_cols %}3{% endblock %}">
+                    {% block sidebar %}
+                        {{ sidebar }}
+                    {% endblock %}
+                </v-col>
+            </v-row>
+
+
         </v-container>
     </v-content>
     {% include 'admin/partials/footer.html' %}
