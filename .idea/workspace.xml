@@ -3,9 +3,52 @@
   <component name="ChangeListManager">
     <list default="true" id="db4e1307-6332-4be6-8bb4-45a2fc7370a3" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/titanic/dashboard/templates/admin/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/titanic/dashboard/templates/admin/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/titanic/dashboard/templates/admin/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/titanic/dashboard/templates/admin/templates/base.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/titanic/dashboard/templates/admin/templates/dashboard.html" beforeDir="false" afterPath="$PROJECT_DIR$/titanic/dashboard/templates/admin/templates/dashboard.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pipfile" beforeDir="false" afterPath="$PROJECT_DIR$/Pipfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/titanic/dashboard/templates/admin/404.html" beforeDir="false" afterPath="$PROJECT_DIR$/titanic/dashboard/templates/2admin/404.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/titanic/dashboard/templates/admin/500.html" beforeDir="false" afterPath="$PROJECT_DIR$/titanic/dashboard/templates/2admin/500.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/titanic/dashboard/templates/admin/actions.html" beforeDir="false" afterPath="$PROJECT_DIR$/titanic/dashboard/templates/2admin/actions.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/titanic/dashboard/templates/admin/app_index.html" beforeDir="false" afterPath="$PROJECT_DIR$/titanic/dashboard/templates/2admin/app_index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/titanic/dashboard/templates/admin/auth/user/add_form.html" beforeDir="false" afterPath="$PROJECT_DIR$/titanic/dashboard/templates/2admin/auth/user/add_form.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/titanic/dashboard/templates/admin/auth/user/change_password.html" beforeDir="false" afterPath="$PROJECT_DIR$/titanic/dashboard/templates/2admin/auth/user/change_password.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/titanic/dashboard/templates/admin/auth_base.html" beforeDir="false" afterPath="$PROJECT_DIR$/titanic/dashboard/templates/2admin/auth_base.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/titanic/dashboard/templates/admin/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/titanic/dashboard/templates/2admin/base.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/titanic/dashboard/templates/admin/base_.html" beforeDir="false" afterPath="$PROJECT_DIR$/titanic/dashboard/templates/2admin/base_.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/titanic/dashboard/templates/admin/base_site.html" beforeDir="false" afterPath="$PROJECT_DIR$/titanic/dashboard/templates/2admin/base_site.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/titanic/dashboard/templates/admin/base_site_.html" beforeDir="false" afterPath="$PROJECT_DIR$/titanic/dashboard/templates/2admin/base_site_.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/titanic/dashboard/templates/admin/change_form.html" beforeDir="false" afterPath="$PROJECT_DIR$/titanic/dashboard/templates/2admin/change_form.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/titanic/dashboard/templates/admin/change_form_object_tools.html" beforeDir="false" afterPath="$PROJECT_DIR$/titanic/dashboard/templates/2admin/change_form_object_tools.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/titanic/dashboard/templates/admin/change_list.html" beforeDir="false" afterPath="$PROJECT_DIR$/titanic/dashboard/templates/2admin/change_list.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/titanic/dashboard/templates/admin/change_list_object_tools.html" beforeDir="false" afterPath="$PROJECT_DIR$/titanic/dashboard/templates/2admin/change_list_object_tools.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/titanic/dashboard/templates/admin/change_list_results.html" beforeDir="false" afterPath="$PROJECT_DIR$/titanic/dashboard/templates/2admin/change_list_results.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/titanic/dashboard/templates/admin/date_hierarchy.html" beforeDir="false" afterPath="$PROJECT_DIR$/titanic/dashboard/templates/2admin/date_hierarchy.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/titanic/dashboard/templates/admin/delete_confirmation.html" beforeDir="false" afterPath="$PROJECT_DIR$/titanic/dashboard/templates/2admin/delete_confirmation.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/titanic/dashboard/templates/admin/delete_selected_confirmation.html" beforeDir="false" afterPath="$PROJECT_DIR$/titanic/dashboard/templates/2admin/delete_selected_confirmation.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/titanic/dashboard/templates/admin/edit_inline/stacked.html" beforeDir="false" afterPath="$PROJECT_DIR$/titanic/dashboard/templates/2admin/edit_inline/stacked.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/titanic/dashboard/templates/admin/edit_inline/tabular.html" beforeDir="false" afterPath="$PROJECT_DIR$/titanic/dashboard/templates/2admin/edit_inline/tabular.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/titanic/dashboard/templates/admin/filter.html" beforeDir="false" afterPath="$PROJECT_DIR$/titanic/dashboard/templates/2admin/filter.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/titanic/dashboard/templates/admin/includes/fieldset.html" beforeDir="false" afterPath="$PROJECT_DIR$/titanic/dashboard/templates/2admin/includes/fieldset.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/titanic/dashboard/templates/admin/includes/object_delete_summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/titanic/dashboard/templates/2admin/includes/object_delete_summary.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/titanic/dashboard/templates/admin/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/titanic/dashboard/templates/2admin/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/titanic/dashboard/templates/admin/invalid_setup.html" beforeDir="false" afterPath="$PROJECT_DIR$/titanic/dashboard/templates/2admin/invalid_setup.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/titanic/dashboard/templates/admin/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/titanic/dashboard/templates/2admin/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/titanic/dashboard/templates/admin/object_history.html" beforeDir="false" afterPath="$PROJECT_DIR$/titanic/dashboard/templates/2admin/object_history.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/titanic/dashboard/templates/admin/pagination.html" beforeDir="false" afterPath="$PROJECT_DIR$/titanic/dashboard/templates/2admin/pagination.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/titanic/dashboard/templates/admin/partials/footer.html" beforeDir="false" afterPath="$PROJECT_DIR$/titanic/dashboard/templates/2admin/partials/footer.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/titanic/dashboard/templates/admin/partials/header.html" beforeDir="false" afterPath="$PROJECT_DIR$/titanic/dashboard/templates/2admin/partials/header.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/titanic/dashboard/templates/admin/partials/sidebar.html" beforeDir="false" afterPath="$PROJECT_DIR$/titanic/dashboard/templates/2admin/partials/sidebar.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/titanic/dashboard/templates/admin/popup_response.html" beforeDir="false" afterPath="$PROJECT_DIR$/titanic/dashboard/templates/2admin/popup_response.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/titanic/dashboard/templates/admin/prepopulated_fields_js.html" beforeDir="false" afterPath="$PROJECT_DIR$/titanic/dashboard/templates/2admin/prepopulated_fields_js.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/titanic/dashboard/templates/admin/search_form.html" beforeDir="false" afterPath="$PROJECT_DIR$/titanic/dashboard/templates/2admin/search_form.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/titanic/dashboard/templates/admin/submit_line.html" beforeDir="false" afterPath="$PROJECT_DIR$/titanic/dashboard/templates/2admin/submit_line.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/titanic/dashboard/templates/admin/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/titanic/dashboard/templates/2admin/templates/base.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/titanic/dashboard/templates/admin/templates/dashboard.html" beforeDir="false" afterPath="$PROJECT_DIR$/titanic/dashboard/templates/2admin/templates/dashboard.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/titanic/dashboard/templates/admin/widgets/clearable_file_input.html" beforeDir="false" afterPath="$PROJECT_DIR$/titanic/dashboard/templates/2admin/widgets/clearable_file_input.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/titanic/dashboard/templates/admin/widgets/foreign_key_raw_id.html" beforeDir="false" afterPath="$PROJECT_DIR$/titanic/dashboard/templates/2admin/widgets/foreign_key_raw_id.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/titanic/dashboard/templates/admin/widgets/many_to_many_raw_id.html" beforeDir="false" afterPath="$PROJECT_DIR$/titanic/dashboard/templates/2admin/widgets/many_to_many_raw_id.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/titanic/dashboard/templates/admin/widgets/radio.html" beforeDir="false" afterPath="$PROJECT_DIR$/titanic/dashboard/templates/2admin/widgets/radio.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/titanic/dashboard/templates/admin/widgets/related_widget_wrapper.html" beforeDir="false" afterPath="$PROJECT_DIR$/titanic/dashboard/templates/2admin/widgets/related_widget_wrapper.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/titanic/dashboard/templates/admin/widgets/split_datetime.html" beforeDir="false" afterPath="$PROJECT_DIR$/titanic/dashboard/templates/2admin/widgets/split_datetime.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/titanic/dashboard/templates/admin/widgets/url.html" beforeDir="false" afterPath="$PROJECT_DIR$/titanic/dashboard/templates/2admin/widgets/url.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -118,7 +161,7 @@
       <workItem from="1583514643307" duration="12801000" />
       <workItem from="1583570387695" duration="371000" />
       <workItem from="1583599284143" duration="8636000" />
-      <workItem from="1583653181655" duration="8330000" />
+      <workItem from="1583653181655" duration="8478000" />
     </task>
     <servers />
   </component>
@@ -183,7 +226,7 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="django-line">
-          <url>file://$PROJECT_DIR$/titanic/dashboard/templates/admin/base.html</url>
+          <url>file://$PROJECT_DIR$/titanic/dashboard/templates/2admin/base.html</url>
           <line>1</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
