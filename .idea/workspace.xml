@@ -2,11 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="db4e1307-6332-4be6-8bb4-45a2fc7370a3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/titanic/dashboard/templates/admin/login_old.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/titanic/dashboard/templates/admin/templates/base.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/titanic/dashboard/templates/admin/partials/footer.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/titanic/dashboard/templates/admin/partials/header_.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/titanic/dashboard/templates/admin/templates/dashboard.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/titanic/dashboard/static/admin/images/pages/vuexy-login-bg.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/titanic/dashboard/static/admin/images/backgrounds/auth-bg.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/titanic/dashboard/templates/admin/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/titanic/dashboard/templates/admin/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/titanic/dashboard/templates/admin/base_.html" beforeDir="false" afterPath="$PROJECT_DIR$/titanic/dashboard/templates/admin/base_.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/titanic/dashboard/templates/admin/partials/header.html" beforeDir="false" afterPath="$PROJECT_DIR$/titanic/dashboard/templates/admin/partials/header.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/titanic/dashboard/templates/admin/partials/header/languages.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/titanic/dashboard/templates/admin/partials/sidebar.html" beforeDir="false" afterPath="$PROJECT_DIR$/titanic/dashboard/templates/admin/partials/sidebar.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/titanic/dashboard/templates/admin/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/titanic/dashboard/templates/admin/templates/base.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,8 +23,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="JavaScript File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -48,7 +52,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/titanic/dashboard/templates/admin" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/titanic/dashboard/templates/admin/partials" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
@@ -58,11 +62,11 @@
       <recent name="$PROJECT_DIR$/titanic" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/titanic/dashboard/templates/admin/partials" />
       <recent name="$PROJECT_DIR$/titanic/dashboard/templates/admin" />
       <recent name="$PROJECT_DIR$/titanic/dashboard/templates" />
       <recent name="$PROJECT_DIR$/dashboard" />
       <recent name="$PROJECT_DIR$/titanic/authenticator" />
-      <recent name="$PROJECT_DIR$/templates" />
     </key>
   </component>
   <component name="RunManager">
@@ -119,7 +123,7 @@
       <workItem from="1583514643307" duration="12801000" />
       <workItem from="1583570387695" duration="371000" />
       <workItem from="1583599284143" duration="8636000" />
-      <workItem from="1583653181655" duration="3906000" />
+      <workItem from="1583653181655" duration="7315000" />
     </task>
     <servers />
   </component>
@@ -163,6 +167,10 @@
       <screen x="0" y="23" width="2560" height="1325" />
     </state>
     <state width="1866" height="452" key="GridCell.Tab.1.right/2560.23.1920.1057/0.23.2560.1325@0.23.2560.1325" timestamp="1583420507801" />
+    <state x="578" y="403" key="RollbackChangesDialog" timestamp="1583669732856">
+      <screen x="0" y="23" width="2560" height="1325" />
+    </state>
+    <state x="578" y="403" key="RollbackChangesDialog/2560.23.1920.1057/0.23.2560.1325@0.23.2560.1325" timestamp="1583669732856" />
     <state x="455" y="308" key="SettingsEditor" timestamp="1583514719672">
       <screen x="0" y="23" width="2560" height="1325" />
     </state>
@@ -183,11 +191,6 @@
           <url>file://$PROJECT_DIR$/titanic/dashboard/templates/admin/base.html</url>
           <line>1</line>
           <option name="timeStamp" value="1" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="django-line">
-          <url>file://$PROJECT_DIR$/titanic/dashboard/templates/admin/partials/header.html</url>
-          <line>64</line>
-          <option name="timeStamp" value="2" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
