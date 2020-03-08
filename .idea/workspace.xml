@@ -2,8 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="db4e1307-6332-4be6-8bb4-45a2fc7370a3" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/titanic/dashboard/templates/admin/login_old.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/titanic/dashboard/templates/admin/templates/base.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/titanic/dashboard/templates/admin/partials/header.html" beforeDir="false" afterPath="$PROJECT_DIR$/titanic/dashboard/templates/admin/partials/header.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/titanic/dashboard/static/admin/images/pages/vuexy-login-bg.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/titanic/dashboard/static/admin/images/backgrounds/auth-bg.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/titanic/dashboard/templates/admin/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/titanic/dashboard/templates/admin/login.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,6 +20,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTML File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -48,16 +52,17 @@
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/titanic/dashboard/static/admin/images/backgrounds" />
+      <recent name="$PROJECT_DIR$/titanic/dashboard/static/admin" />
+      <recent name="$PROJECT_DIR$/titanic" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/titanic/dashboard/templates/admin" />
       <recent name="$PROJECT_DIR$/titanic/dashboard/templates" />
       <recent name="$PROJECT_DIR$/dashboard" />
       <recent name="$PROJECT_DIR$/titanic/authenticator" />
       <recent name="$PROJECT_DIR$/templates" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/titanic/dashboard/static/admin" />
-      <recent name="$PROJECT_DIR$/titanic" />
     </key>
   </component>
   <component name="RunManager">
@@ -113,7 +118,8 @@
       <workItem from="1583497162888" duration="2209000" />
       <workItem from="1583514643307" duration="12801000" />
       <workItem from="1583570387695" duration="371000" />
-      <workItem from="1583599284143" duration="3795000" />
+      <workItem from="1583599284143" duration="8636000" />
+      <workItem from="1583653181655" duration="3906000" />
     </task>
     <servers />
   </component>
